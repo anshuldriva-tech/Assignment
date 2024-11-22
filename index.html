@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VENIA | Product Listing Page</title>
+    <title>Product Listing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -12,13 +12,11 @@
     <div id="mobile-menu-backdrop">
         <div id="mobile-menu">
             <h3>VENIA</h3>
-            <div>
-                <a href="#">Home</a>
-                <a href="#">Women</a>
-                <a href="#">Men</a>
-                <a href="#">Smart Gear</a>
-                <a href="#">Accessories</a>
-            </div>
+            <p>Home</p>
+            <p>Women</p>
+            <p>Men</p>
+            <p>Smart Gear</p>
+            <p>Accessories</p>
         </div>
     </div>
 
@@ -46,7 +44,7 @@
         </div>
     </header>
 
-    <section id="hero">
+    <section class="hero">
         <div>
             <h2>Men's Outerwear</h2>
             <p>Discover the latest trends in men's fashion.</p>
@@ -88,10 +86,7 @@
         <div id="backdrop">
             <section class="filters">
                 <div class="filter-group">
-                    <div>
-                        <h3>Filter</h3>
-                        <p>&#10005;</p>
-                    </div>
+                    <h3>Filter</h3>
                     <div class="divider"></div>
                     <h4>Categories</h4>
                     <div id="category-filter">
@@ -106,33 +101,33 @@
 
         <div>
             <section id="product-list">
-                <!-- load products dynamically in chunks here -->
+                <!-- load products dynamically over here -->
             </section>
 
-            <div id="shimmer-loading" class="grid grid-cols-2 md:grid-cols-4 gap-5 my-10">
-                <div class="loading-card flex flex-col gap-2">
-                    <div class="bg-black/20 rounded-lg w-full h-40"></div>
-                    <div class="bg-black/20 rounded-lg w-full h-5"></div>
-                    <div class="bg-black/20 rounded-lg w-4/5 h-5"></div>
-                    <div class="bg-black/20 rounded-lg w-1/4 h-5"></div>
+            <div id="shimmer-loading">
+                <div class="loading-card">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
-                <div class="loading-card flex flex-col gap-2">
-                    <div class="bg-black/20 rounded-lg w-full h-40"></div>
-                    <div class="bg-black/20 rounded-lg w-full h-5"></div>
-                    <div class="bg-black/20 rounded-lg w-4/5 h-5"></div>
-                    <div class="bg-black/20 rounded-lg w-1/4 h-5"></div>
+                <div class="loading-card">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
-                <div class="loading-card hidden md:flex flex-col gap-2">
-                    <div class="bg-black/20 rounded-lg w-full h-40"></div>
-                    <div class="bg-black/20 rounded-lg w-full h-5"></div>
-                    <div class="bg-black/20 rounded-lg w-4/5 h-5"></div>
-                    <div class="bg-black/20 rounded-lg w-1/4 h-5"></div>
+                <div class="loading-card">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
-                <div class="loading-card hidden md:flex flex-col gap-2">
-                    <div class="bg-black/20 rounded-lg w-full h-40"></div>
-                    <div class="bg-black/20 rounded-lg w-full h-5"></div>
-                    <div class="bg-black/20 rounded-lg w-4/5 h-5"></div>
-                    <div class="bg-black/20 rounded-lg w-1/4 h-5"></div>
+                <div class="loading-card">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
             </div>
 
