@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENIA | Product Listing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="mobile-menu-backdrop">
+        <div id="mobile-menu">
+            <h3>VENIA</h3>
+            <div>
+                <a href="#">Home</a>
+                <a href="#">Women</a>
+                <a href="#">Men</a>
+                <a href="#">Smart Gear</a>
+                <a href="#">Accessories</a>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div>
+            <img id="menu-btn" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA8klEQVR4nO3by03DUBiE0U+iGkDUzmMFNIVIdtkEWXIDMb7iWpwjTQP/JHYWkwIAAAAAAPjfHqu36ru6Sr+5wXLD1+phaxlP1VkJ7f1BPK+3vdmnMhr1VPi4tYy76qKQRhVyWW+skA5aiEdWQwt5bwMv9YaUcdr6Um/9ifZSfU3wNb8ePMsNn6v7rWUAAAAAAAAAAMA21u/tNgOyfm/OWL83X6zfmyvW7x28kIU/7DSsEOv35on1e3PE+h0AAAAAAAAAgD9i/d5uMyDr9+aM9Xvzxfq9uWL93sELWVi/N6wQ6/fmifV7c8T6HQAAAAAAiPoB41UQH484jJsAAAAASUVORK5CYII="
+                alt="menu--v6">
+
+            <h1><a href="#">VENIA</a></h1>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Women</a>
+                <a href="#">Men</a>
+                <a href="#">Smart Gear</a>
+                <a href="#">Accessories</a>
+            </nav>
+
+            <div>
+                <input type="text" id="search-bar" placeholder="Search products...">
+
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAED0lEQVR4nO2dOWhUURSGP4MbqHFBUVtFixgbcemMFjrRQrAQLcRmYiUoVoJbghDEoGUqFUTFJZVoo7iAgli4r61iFUFF44aNVy5cQUN882beve+eOzkf/N3MOfec8zLv/W8LKIqiKIqiKIqiKIqiKIqiCGEG0AX0AwNNqn6gCkxHODuBz4AZJfoE7EAoxwQ0yERSH8LYKKApJrI2IIjnAhpiIuspQlggoBlGiOYjgPUCGmGEqBMBVAsWcQnoACY5rQIul9C8EHltL6LTXaCAPRlx9wYcRqi8thfROVFgC63FlUB/GaHy2l5E52qDi7c/F7VYHWAgIfPaXkTnZYOLn5wj9pQAAwmZ9wUCaPRUycyc8Y1n5WFWg7GHiExrgcasFTyQzgLxbU+i0VZg4dcFD+Rmgfi2J9EosiVZHRU4kN6C8SskbAqtbgPzBAxkHnDHQ/yo5rDHU5M2CRjIJk/xbU+SM4XNPJDjROSaDgRR5vCFp61qc0aOnx7/Omys/7HFU46o5tDX9fOsHeFbjwN5nZFnu6ccQymawuHan5Hnhsc8Wd7noMc8ramZwuE6m5Fnt8c8uzLynPOYJ4o5rHgs4E1GnrnANw85vgJzSvpprKRqCvNuVb0e4h/KiL/Ycy3V1K4UjqTDGbkmAvcKxL4LTMiIf8RzLd0pm8I/el/jWsUcd6tNvXGfALMz4tod8EfPtZxI6Uphlg7UyDnZHQD8yhHLfua0u4GhjNM/0c2hL1P4t77nvLdpBXDRHfMPj2G90QVgeY44C4EfAeqIYg5D3VR9v8bv/d/Yz7UD65za6/iu3S89ClSD7U2pTA1UiHE6D7QEXH+Le6wgZA2tqZrC/+kUMDbA2se5fUvo9belagqzdKPGEVK92CO1WyWtvZKyKczSILAVGFNgvfa724B3Ja67mrIpzKOH7iJS3p027rP21P7jCOvtTtkU1qMPwBm3BS5z91CNd5rlDnerzq/4NnxizaGvK4XNrKtlDuSVgIKNcNlbbEtjJIesIs6Vw9Cm0DSRSjGHiwQUahJRWwq3j44mVcoYSJeAQk0iKsUchrh+0KzqKWMgJwUUahJRKeZQTSGyzKGaQmSZQzWFyDGHagqRZQ7bBewoTWKyRjoYagqRZQ7VFCLLHKopRJY5VFOILHOophBZ5lBNIbLMoZpC5JhDNYXIModqCpFlDtUUIssc+nqOezSqK8RA1BQiyxyqKUSWOVRTiCxz2OjbR1WEMYdqCpFlDr/o1o6oh0BDPbE6GvQgxEAOCCjMJKp9IQYyreRn9EyTaNCdBwxCh3vbQuwiTSKyvVpJYJYCzwQUa4TLvvRmCSXR4t7d3uceroz9jx4HhOise9XTmsBvolAURVEURVEURVEURVEUReEffgMUdt4cEr2fWAAAAABJRU5ErkJggg=="
+                    alt="shopping-bag">
+            </div>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div>
+            <h2>Men's Outerwear</h2>
+            <p>Discover the latest trends in men's fashion.</p>
+            <div class="bar"></div>
+        </div>
+        <img src="https://images.jdmagicbox.com/quickquotes/listicle/listicle_1708435486542_70mlc_847x400.jpg"
+            alt="Men's Outerwear">
+    </section>
+
+    <div class="content-header">
+        <nav class="breadcrumbs">
+            <a href="#">Clothing /</a>
+            <a href="#">Men's /</a>
+            <p>Outerwear</p>
+        </nav>
+
+        <div>
+            <div id="filter-button">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEQ0lEQVR4nO2cXagVVRTHf1evj11LIwhSsy+igkipB02wDMp66fM+RChp+KiZYdKtRESt6KUeIhIy6AuDHiqKnivKQr1gZFRaYh8Woah4zG52RjauS6fb+Zoza8+ZOef/gwUXzrmz117/OTOz16y9QAghhBBCCCGEEEIIIURqLgFWAC8AbwIvA+uA+cCk9IcTnXIt8BFQBZIG9h2wBBjoeBTRFmuBv5sIMdE+BKa2d2iRlmdTCFFru4Gh1KOJpizpUIxxe7f54UUapgOHMwoSbDjVqKIhTzqIEWxPkW7ywZHVwI8tnk7KZruBhcA5wJXAVqfjVi1Wq2KJ+GgBgpc420Hg3DpzfdV5nDUxBPm9AAFMnG1zg7nOcR7nkLcYU3rsMpWYhVV6PaY5j/MPMOgtyq4CBDBxtlcazPV253F2EoEbgRMFCGLiaGOWt6olLAC/chzjRJ0x3LgceAbYDrxdIjvQQpQXgWX2ePxTk++eTjFmiNHTwGWxxCgzw05newiycGAy8EVGMU7ZOkU4cRVwNIMgK70cEf8SVuTHOhBjU80xhDPXWLqkHSGOAEu9HRD/Z9ACvcMWbfVSKhuBC+r8r4jMebbGuhO4GZgde0AhhBBCCNHvTLFEYCjr3A9UzMLfbwD3xXjRI+pzhxUFtFo9B3EWK4jxGLBVcTVFbil8d4NEicOGDBnYpySKLzdlLJ6oArdIFB/C/otvHN7i7e3nvRzhen8DcK898WSxJ1oEugJ8bFZp8d0RB3+8LcTo+pilp+cDnzmc0e3Y58BFNWPPsFR5UkL71Iq93XkrpwmMmQATmWmfJSW0sIZyLxL4KyfndzTxI2uhQrfsT+/73GSrupAgFEMQLJ2RhyBjdnmayCxdsv7LdLtB5fUrmVEz9swSX64+iXVTH2eu02PvSIuJVGwywU6W9LE3xKo0TLJFXdYz8OsibTPrhcK1rKmTRd2eRK+xPoMgI912vpczvtWUvwxleiNzG7CvDTG+B26N7Yw4yyBwD/C6iTP+CjeI8Bpwty1ShRBCCCGE6GMutSqUu4AF1iJD5MyFwBbglzqLyLBd7UvgQZWg5sPyFFudR23Dp4jEcx0kI49bcZ5wZk2GDPFRayIgnLjaoQImvA5WTsyJdxzeMib2mrX0XGHNiLvZnul0kyAftBLVZdZyqVlh3YHIfm63WIWWVlFY0EaNbTdtj3UWrWV+AaodK9aYwJ12+4N0yxY38HtbAXzb2Y9NMKc18H1FAXyL0gTztwJMLGli1zXwe0sBfPuVPmykvK2Oz+FX83MBfIvSSDkUoz0M/FDgy9dWa8M3ZJ19RrvoS9V2DK/s9UK+UaeAPd7tifQKww5i/KHUvC/vZRTkfmd/+p6hDJcuNbSMxFTggxRChBX7I31/KkdmAHgA+LbFoux9vZzKX5h5wGPAS7b97nngIeDinH0RQgghhBBCCCGEEEIIcucMVLjVUPye2AcAAAAASUVORK5CYII="
+                    alt="sorting-options">
+                <p>Filter Options</p>
+            </div>
+
+            <div id="filters">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACzUlEQVR4nO2dzW7icBDD50E2x8J995C+cgGpb5VTt1BewCuk7AUR8lFIbc9YilQJaO38AkkdNP+IUqlUKpVKpZKethGxj4iu3y4/b0JHTUQcIuLcb+99Jkm1EXGMCFxtx/4xBRh/b/j/7B+T0mWHn26E+b+dBKAc7vjfhREMFSjnO96/wgyGApTziG87GOxQ3u94fgtTGMxQtv0J/NrrR0T8CmMYzFCa/gT+1W9v7DD+DBxF34Hy+tOhVPVoGCgofDBQUPhgoKCsfwJXOdE3zF3WHBhT/1NnhtIwd1lzYbQTnrfkd64p2i5rO9Daju24sefGTCjHlat72i5rv/AongJkLpTdirlpu6xu4UfKVCBzoHQr5qbtsrqFn+9zgEyF0sV6ou2ydgtgLAEyBcraJ1PKLmszcKSM3YpdAuTerd9PsfvxT9Xm6ssKl6PmZeQ1S4Es/XulJwIpPUEFhEwOQBrmLisbkIa5y8oI5EB0+f0QqQM5O3wvywkIxP3bBYK4f7tAEPdvFwji/u0CQdy/XSCI+7cLBHH/doEg7t8uEMT92wWCuH+7QBD3bxcI4v7tAkHcv10giPu3CwRx/3aBIO7fLhDE/dsFgrh/u0AQ928XCOL+7QJB3L9dIIj7twsEcf92gSDu3y4QxP3bBYK4f7tAEPdvFwji/u0CQdy/XSCI+7cLBHH/doEg7l9nVkhWILSzQrICoZ0VkhUI7ayQzECUhQLCpQJCttLPd4Coryz0IxcXx4zjpRhmhewTD2CjnBXSJR1RSDsrpEs6xJN2Vshuwo66BUV9zC1tl7VJOgiaustqE45Kp++y2mSLCUh0WW2y5TYk9HvgcrxgGEM51TuDB0rBIIJCD4Ohy8q8MCZll5V16VjaLivr4sq0XVbW5cdpu6xnQZGCwdZlPRqKHAzGLmuuhm7Fjt36pRZblzVXtdJPqVQqlUqlUjjoH40nzGbY8ZW7AAAAAElFTkSuQmCC"
+                    alt="sorting-arrows">
+                <select id="sort-options">
+                    <option value="default">Sort Options</option>
+                    <option value="price-asc">Sort by Price (Low to High)</option>
+                    <option value="price-desc">Sort by Price (High to Low)</option>
+                    <option value="name-asc">Sort by Name (A-Z)</option>
+                    <option value="name-desc">Sort by Name (Z-A)</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div id="backdrop">
+            <section class="filters">
+                <div class="filter-group">
+                    <div>
+                        <h3>Filter</h3>
+                        <p>&#10005;</p>
+                    </div>
+                    <div class="divider"></div>
+                    <h4>Categories</h4>
+                    <div id="category-filter">
+                        <label>
+                            <input type="radio" name="category" value="all" checked>
+                            All Categories
+                        </label>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div>
+            <section id="product-list">
+                <!-- load products dynamically in chunks here -->
+            </section>
+
+            <div id="shimmer-loading" class="grid grid-cols-2 md:grid-cols-4 gap-5 my-10">
+                <div class="loading-card flex flex-col gap-2">
+                    <div class="bg-black/20 rounded-lg w-full h-40"></div>
+                    <div class="bg-black/20 rounded-lg w-full h-5"></div>
+                    <div class="bg-black/20 rounded-lg w-4/5 h-5"></div>
+                    <div class="bg-black/20 rounded-lg w-1/4 h-5"></div>
+                </div>
+                <div class="loading-card flex flex-col gap-2">
+                    <div class="bg-black/20 rounded-lg w-full h-40"></div>
+                    <div class="bg-black/20 rounded-lg w-full h-5"></div>
+                    <div class="bg-black/20 rounded-lg w-4/5 h-5"></div>
+                    <div class="bg-black/20 rounded-lg w-1/4 h-5"></div>
+                </div>
+                <div class="loading-card hidden md:flex flex-col gap-2">
+                    <div class="bg-black/20 rounded-lg w-full h-40"></div>
+                    <div class="bg-black/20 rounded-lg w-full h-5"></div>
+                    <div class="bg-black/20 rounded-lg w-4/5 h-5"></div>
+                    <div class="bg-black/20 rounded-lg w-1/4 h-5"></div>
+                </div>
+                <div class="loading-card hidden md:flex flex-col gap-2">
+                    <div class="bg-black/20 rounded-lg w-full h-40"></div>
+                    <div class="bg-black/20 rounded-lg w-full h-5"></div>
+                    <div class="bg-black/20 rounded-lg w-4/5 h-5"></div>
+                    <div class="bg-black/20 rounded-lg w-1/4 h-5"></div>
+                </div>
+            </div>
+
+            <div id="sentinel"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <div class="footer-section">
+                <h4>Account</h4>
+                <ul>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Order Status</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us!</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore.</p>
+                <div class="social-icons">
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFcElEQVR4nO2dyY9VRRSHPxPoNtFoaKFdOCSCA7GDunRg0JgobSAgAZduSAw0ELeGdo7TTiMh0ahB40DAP8ARh5VptGkI/4GtgHEigG0LYpkK5yWk07fue7drOO9VfclvQz9qOOfdelWnzq2CQqFQKBQKhUKhUCgUCnnSB6wAngb2AYeBX4AzgFGiM9KmCWnjk8ByYD49xH3Au8BpBQY3DXUK2AOsoku5BNgAjCswpvGs74H1dBE3A58rMJwJrG+AIZTzKDClwFgmkqaBx1FIP7BXgYFMIn0okxYVXA58qcAoJrG+EFskxX4rPlNgDKNEX8lokYychylToQ9SOWOHgs4bpRqJ7YxbZYaRuuNGqf4GlsZ0yAEFnTbK9a0skIOzQUFnTZdoXQyH/KCgoyaSfgSeATYDbwBnG4RZgnKvAiOZSDoCXDmj/8sbOCVoQHKPAkOZSLq/wgZvdljOOyEXgacUGMpE0hUVdtjcYTknQ+2nrFBgJBNRdmo/G882KOueEA55SoGRTETZ4XkmC4CfGpQ1GsIh+xQYySRwypAMXw8ARxuWY0NM3jmswEDnge+AF2U9NCTf2vmiBfJv9m8vyWfPK2j3oRAOOZGwQ5PAE8A1Ddp9rfzfyYTtPx7AH0myQ34Dtnja/LFh8a1SZux+WNt557/IndgLXBWgHwsT/B5a23knVuPPyVMRmhGpK1a/vBOj0VPAGuKxNmJShndiPBlrGgw/twEPAcPAsgbD3NpIT4p3Qjd4S5vtuBF4rmYaPiEr6iVtlrmtOKTzhdPVwO4Oo632s7uAwTbK31+ekAtG+12GHhd3yVy+6dP3K7DSWcOFoc5+Lvshq26oesTT/r0tY1NNXdtzd8hkzaLvbs/JFP/UPCn9DYOHPeMQG9Jw/WacCFCnHfoWOerdmatDbNDvOkd9uwMZxup1R702XvZvjg6xkVjX1PZsQIfYoWuxo/6xHB3ygqOu5wM6oyWbTVLFKzk65GFHXUcS71FszNEhVW8fLYzgjFYEdqCiDctydEiVMe6I5BAjcbBYXwr1DqlafwxHdMhqx3qkOERYHdEhDzI7WTqkasi6PaJD7G/FbGQ5ZA05gnwmgsqP+gyD2FSdKiYiOMRm8VexKccnxOZW4TFd03Qom4lZRZYLQ1foZImEN0I5w5Z9g6P+gzk6pC64uCugQ1511Ht9oGxH78QOvw/OcZewSsdqdiizDb+3Nqj6a7Zupz2/HXuno77sN6iMpHdSM+OZ9uQMGzRM9e69d0ImObh28JBv9fE5DlOuJ6O1/gmZ9+sdE1A217aORbLT18nsy372tTayWiwfB+6jd4yS4ygWy+bSIUdZ43K2o2tqG/uYEO+EbvA5SevshAGJRw1flEpaFSOroqSSOpwy1cApc6EkW7f5pGyL4Iwd3f46QuwXdva3MftqwmCEH/AoL+z8FbkTRqbE2z2d0napPBV/9MorbSlf+vxZQhqu2JcrNjUqZaRqv10H9exr0WPAy7Lqbs2q+kQDkriwUULoB5W8Fm2n4d7J8eAA40kfhXBIbkdrGI+yw613ViromOlS2ai1d3I7nsl40p/APAKR0wFmxpPeIiCrFHTQdJnsOWNBCZEA0KsaIwLrFXTUdImiBUrLbQi0dVtCNJbKHnXqb6BRKmubW4jMiIKOG6V6jES8r6DzRpneIyH2nMNPFBjBKNGB1Be6INf85HArm6mRvWnoMpTQJzfLmIyHqT6UXpuXYmfRJJxNqbw272JuAj5VYCwTWF87jiNXyboeDbOMRU5VCrKP8rbcEmC6VCelD3WHoHUV8+T8q1E50m9cEqg13SJ9Wto0Lm3cKW0Otp9RKBQKhUKhUCgUCoVCAcX8D8HQONotUB6iAAAAAElFTkSuQmCC" alt="instagram-new"></a>
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE7UlEQVR4nO2dW4xeUxTHf4xjKKGl1KV0Eg88SCXCizTEtaqoSyOehBCioaSpCCJRInGruA2ZCA8eeJIQCZrpAwlpgrhUfSHVmWqFDHrzoEraLSvZE8nE1Dnft/fZa+9v/ZL1MjP5vrXWf87Z+6y99j5gGIZhGIZhGIZhGIbRlGOBhcByYBhYC6wHNgHbgT3etvufye9G/d/eCVwCHGNp754ZwBLgWZ/cfYDr0eQzvgKeAa4EDjWB9s+BwAJgBNgVQID/M/mO14ArgAET518OAZYBYy2IMJ3Jbe52YLDfb0srgZ8SCuGmmPiywvvWV8htYlyBAG4a2wospQ8YAt5RkHBX094GTqZQrvLTUpeZ7QKuoyAG/fTVZW4jJQz6RwPrFCTTBbKPgKPIlBP8Q50rzDrASWTGacAWBclzkewH4FQy4URgs4Kkucj2IzCPDMaMjoJkuZbsG81jymBhA7iraR9rnX29oCA5LpHJtF4VSxUkxU2xP4APgFeAp4D7gbuAe4GHgMeA54GXffXgS+D3Hkr716CoHLJTgQAOmAAe92X8g7uIZVUP371DyyCvoTa1G3gwQJW2F0Ema19JWaJAjM3A/EDx9CqI2OUkYoaC541xYG7AmEIIMpZqeXilgkH79MAxhRBE7G4SLLumXum7J0JcqwI+xbf6bLIssRhbIgUcShCx22ixO2SswKsjtCDfAwfQAucnFmMvcHwGgoidSwu8mliQz7r0Wzof3wK+9UvJ/2W7A/sqVYDoU91uywuhbHUXfj+cyNedsafAGh4Eb2zo86LE/i4mIhqaFc5r6PO6DK/o2mhYI5/fwN+5Cvz9IuaWgBBd6L3avAY+X6/AX5kVzo4hyEIFwTngyAY+P6DAX7GLYwiyXEFgDqga+Lxagb9id8QQZDhDQYYV+Ov8ymRwRhUE5jIVZE0MQb5WEJjLVBDZShec1ItRLmNBpBgbnG0KAnOZCvJrDEH2KAjMZSrInzkKcgYwq4Y1LYbOamCxOmgkd8GJvftpiPRsiBTbbzGc3Vq4IAMR1kMmTSZEwekULsgpEWOTKy84awoXZHHE2N6N4fBw4YKsiBjbc7k5rEGQkYixSdd9cBYVLsiHEWO7NIbDM/1iS6mCTESKa6/PHbkVGIdIx8yIcclGoGi8FNHx+4Bba5h0TtZlQc3PfCRiXLLVL8upoSu0liVjbzQqBQfIVBkJsqPLrXWNkGPxTBBq5UDabqMjHRQmCOm6TbQ1zFWZ3LI2tLUdAX9gpAnCfnNwCy1yGPCLXSFMJ8ZEio2fqRrnqgxuWbLlr3UkMRtNEKaK8V3Df5rszziplF8hV5OYN00QJsWQLXPJOa7lnq1K6RUivVdzUEKb+zAqpYJcizKe7mNBnkQh0kbzfh8KshY4CKXM9gdD9osgHX/wp2rm+M35pQuy0R8WnQVDEbcvVAoEGc/xrQlyHsnnBQqyPsejxic5HHivIEFGgSPIHEngEwH3uFcJBNnnp7ZqZ1PdcCHwc4aCTACXUShSZnk9I0He0FQOiclFvkytVZAOcAF9hiT2Zv8OQS2CbPKNc8nWMzQgwd/kT4pziQSRds8bShu0Q3Am8KLfkxdbkG3+yAv5TqNGofIc4FHgU+CvAIL8DXzi+3il59euhh4YBM72Z+EONHx3orTjnOUPfzYMwzAMwzAMwzAMw6A+/wCrCoq/h65FsAAAAABJRU5ErkJggg==" alt="facebook-new"></a>
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFMElEQVR4nO2da4xdUxTHfzqMt3oUIUZpdYgoH0pokRKPhBAZjw8Sj3qkQSUoQ2mERAXlEyIRrQ8lJShhUJHIIFEVVQ3BfCAqaSuVtkTTMrTdspI1cjM5d2buvWfvs86565f8k8nNnZy91rpnn7Vf64DjOI7jOI7jOI7jOI7jOI7jVIFDgBOAacBUoAsYV3Sj2omjgLnAe8AmIGRoO/AF8Dgwo+gGV5XpQB+ws04QRtIPwA3A7k1eW+7Ae3O2p7QcAbzSRBDqBebsBgOxGPgXmB3LwPu1ry0DFwIbcwrGkHYBC0Z4zuwBXAJ8oN+V//kV2CuGgYcCW4H1wERsc6P+MkMkvQl06rXGA5cCLwJbMr4r3V0U5tVcZACYgE1m1fw6Y0oe/KuBHSN8Z3lMQ9cMu9hKYD9scW7kO6MRbdE0OgoT61x0paE7ZQKwwUAggnbtktlF48pRsg8Lz5TFBgIxNI45J6N93cADwP55GPvoKI2QB/3JFMfURM+N0fQjcFpNu44H7gM+1/ZdnpfBL4yhMb9rylcELxsIhjj9aqAXeD2j+3wmT4OXjbFR8it4HtibdIzXbiIY1vstjPQzeaPBBqzW2zVVmhsMa1WMbHRRk5nGbUAHcVliwOn19DVwWAyjH2mhUTJ+mUk8vjfg+HrPlINiGX1FDg18NcJAqQMYNOD84Xon9qC5K6e0Uh6+zwFTcmrXgQacXyuZ3n8I2I0ErMq54W81OJ2dxZEGglCrx0hIbyQjJNB3Nznat3aHzI/g9xGN/zOiMbt0BlUCP7mBZ8hIs62p9TCJGW0KJU9t0G5tns7i1psDGjAQiCHJNElS9gV+LsjYHcA6nWGWQD2tK5jfGAjEkOZQAOcZ6yaCIV1PQcw1YHwwqNxmc0fj1IzPFhhwQDCms1IFRLKfL3XBXrKtISQj8u6L/wMi246S0Fdz0b+BT4EnNUBPGVrHDgVqa6oRerOzve2mNSRkjgGDg3HJKmEyug0YHIxLMs+krDVgdDCs01MH5EEDRgej2l6ztTQZB0eeXAwlVj8FsdCA8cGgZE6tEPYxNrsajCjVDptM5DzePwacEIxIZpsL52YjWzdDOy5K1UP2XHlQ4EQMca3O4YQ2VT8GOQZYYcA5oQD1YBQ5BHlVm2Vgv+S9gToGHXq4Zymw2YDTQpU2NIyF6RqAGZoOnwFcBNyip1K3GXBciKCNeZ2EihGQ0Ia6HcN8ZcBBIaFkG9SeGKbHgJNCQl1DCXjXgKNCAn2cct28FSbVKStRJW0DjqNEXFDx3Sd3UkJuqug+rRUJzkpG47KKjT82a5dcamSQ+K0BZ4YWJXf7+VSETt0YUeZ1+F4qiFRauAf4yYCDQwNaWpYUt9UNd7dq5R6pDPqdAceHDPUVsa2naI7WTdvBmD6MVSPRKtINXAf8YcD5YZg+Slw4p3BOAj4x4PiQobf1DGVbMFnXR6yO5Be2S4lxWbh6yXAgBrWkbKWZommupePKIUNrcyjtYfIB3a3bgZ4t0SaHRcABlIhOrT/ympbskz72Cf17iZbSHtDzhqFEWg9cTInpKbByQ8hRf+nh1GgFxVLfLbO1rEUomXbqXX4sFUQGTHeU5I4Z1LkoeWVE5RmnbwNY3uQLUmJqQDM8eZND275C6K6ays1FBOE3HXTObIfZ2UaDM0uzsHWRD1j267mMM8u8tJqaLi09Pl8rkn6mgRrrqH2TVkdYpmm3TEieom+xcXKkQ19XN6nmlXXTtJi/fHa4/+odx3Ecx3Ecx3Ecx3Ecx3EcSst/vY400BzUeNQAAAAASUVORK5CYII=" alt="twitter--v1"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="#">
+                    <p>VENIA</p>
+                </a>
+                <p>© Company Name Address Ave, City Name, State ZIP</p>
+                <div>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
